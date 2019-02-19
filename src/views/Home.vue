@@ -1,13 +1,5 @@
-<template>
-  <HelloWorld />
+<template lang="pug">
+v-content
+  v-container(fluid)
+    v-btn Click here!
 </template>
-
-<script>
-import HelloWorld from '../components/HelloWorld'
-
-export default {
-  components: {
-    HelloWorld
-  }
-}
-</script>
